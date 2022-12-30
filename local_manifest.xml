@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/xiaomi/phoenix" name="SimpleJony/device_xiaomi_phoenix.git" remote="github" revision="arrow" />
+ <project path="hardware/xiaomi" name="ArrowOS-Devices/android_hardware_xiaomi.git" remote="github" revision="arrow-13.0" />
+ <project path="vendor/xiaomi/phoenix" name="SimpleJony/vendor_xiaomi_phoenix.git" remote="github" revision="arrow" />
+ <project path="kernel/xiaomi/phoenix" name="Pzqqt/android_kernel_xiaomi_sm6150-1.git" remote="github" revision="pure-phoenix" />
+
+</manifest>
