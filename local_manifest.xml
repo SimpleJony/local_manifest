@@ -2,10 +2,26 @@
 
 <manifest>
 
+<!--remote -->
+    <remote name="SimpleJony" 
+            fetch="https://github.com/SimpleJony" />
+
+    <remote name="SimpleJony-gitlab" 
+             etch="https://gitlab.com/SimpleJony" />
+
+    <remote name="clang"
+            fetch="https://gitlab.com/Amritorock" />
+
+    <remote name="arrowos-project"
+            fetch="https://gitlab.com/arrowos-project" />
+
+    <remote name="kernel"
+            fetch="https://github.com/Pzqqt" />
+
  <!-- Trees -->
- <project path="device/xiaomi/phoenix" name="SimpleJony/device_xiaomi_phoenix.git" remote="gitlab" revision="arrow" />
- <project path="vendor/xiaomi/phoenix" name="SimpleJony/vendor_xiaomi_phoenix.git" remote="github" revision="arrow" />
- <project path="kernel/xiaomi/phoenix" name="Pzqqt/android_kernel_xiaomi_sm6150-1.git" remote="github" revision="pure-phoenix" />
+ <project path="device/xiaomi/phoenix" name="device_xiaomi_phoenix.git" remote="SimpleJony-gitlab" revision="arrow" />
+ <project path="vendor/xiaomi/phoenix" name="vendor_xiaomi_phoenix.git" remote="SimpleJony" revision="arrow" />
+ <project path="kernel/xiaomi/phoenix" name="android_kernel_xiaomi_sm6150-1.git" remote="kernel" revision="pure-phoenix" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
  <project path="device/xiaomi/extras" name="ArrowOS-Devices/android_device_xiaomi_extras" remote="github" revision="arrow-12.0" />
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
