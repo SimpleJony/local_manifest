@@ -18,7 +18,7 @@
 
  <!-- Trees -->
  <project path="device/xiaomi/phoenix" name="device_xiaomi_phoenix.git" remote="SimpleJony" revision="derp" />
- <project path="vendor/xiaomi/phoenix" name="vendor_xiaomi_phoenix.git" remote="SimpleJony" revision="arrow" clone-depth="1" />
+ <project path="vendor/xiaomi/phoenix" name="vendor_xiaomi_phoenix.git" remote="SimpleJony" revision="derp" clone-depth="1" />
  <project path="kernel/xiaomi/phoenix" name="Pzqqt/android_kernel_xiaomi_sm6150-1.git" remote="github" revision="pure-phoenix" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
  <project path="device/xiaomi/extras" name="ArrowOS-Devices/android_device_xiaomi_extras" remote="github" revision="arrow-12.0" />
