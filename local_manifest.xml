@@ -12,11 +12,16 @@
     <remote name="arrowos-project"
             fetch="https://gitlab.com/arrowos-project" />
 
+    <remote name="jay"
+            fetch="https://gitlab.com/jaymistry258" />
+
 
  <!-- Trees -->
  <project path="device/xiaomi/phoenix" name="device_xiaomi_phoenix.git" remote="SimpleJony" revision="pe_new" />
  <project path="vendor/xiaomi/phoenix" name="vendor_xiaomi_phoenix.git" remote="SimpleJony" revision="pe" clone-depth="1" />
  <project path="kernel/xiaomi/phoenix" name="Pzqqt/android_kernel_xiaomi_sm6150-1.git" remote="github" revision="pure-phoenix" />
+ <project path="device/xiaomi/phoenix-miuicamera" name="jaymistry258/device_xiaomi_phoenix-miuicamera.git" remote="github" revision="thirteen" />
+ <project path="vendor/xiaomi/phoenix-miuicamera" name="vendor-xiaomi-phoenix-miuicamera.git" remote="jay" revision="leica" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arrowos-project" revision="master" clone-depth="1" />
